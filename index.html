@@ -7,15 +7,91 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Conocimientos Previos 2023</h1>
-    <nav id desktop-nav>
+    <nav id="desktop-nav">
         <div>
+            <ul class="nav-links">
             <li><a href="#Github">Github</a></li>
             <li><a href="#HTML 5">HTML 5</a></li>
             <li><a href="#CSS">CSS</a></li>
             <li><a href="#JS">JS</a></li>
-
+            </ul>
         </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Conocimientos 2023</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#Github" onclick="toggleMenu()"></a></li>
+                <li><a href="#HTML 5" onclick="toggleMenu()"></a></li>
+                <li><a href="#CSS" onclick="toggleMenu()"></a></li>
+                <li><a href="#JS" onclick="toggleMenu()"></a></li>
+            </div>
+            </div>
+        </nav>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/github.png" alt="Github"
+                        class="project-img"/>
+                        <div class="article-container">
+                            <img src="./assets/GIT.png" alt="project 3" class="project-img">
+                            <div class="article-container"></div>
+                        </div>
+                </div>
+                <h2 class="experience-sub-tittle project-tittle">git</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="">
+                    GIT
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="">
+                    
+                Github
+            </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/HTML5.png" alt="project 2" class="project-img"/>
+                    
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="">
+                    HTML 5
+                </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/CSS.png" alt="project 3" class="project-img"/>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="">
+                    CSS
+                </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/JS.webp" alt="project 4" class="project-img"/>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="">
+                    JS
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
     </nav>
 </body>
 </html>
