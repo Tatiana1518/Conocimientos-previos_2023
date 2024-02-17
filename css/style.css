@@ -3,6 +3,10 @@
 @import url(https://fonts.google.com/specimen/Poppins?query=popp);
 
 *{
+    background-color: rgb(212, 224, 227); /*Fondo de pagina*/
+}
+
+*{
     margin: 0;
     padding: 0;
 }
@@ -46,9 +50,9 @@ nav {
 }
 
 a {
-    color: rgb(115, 235, 97);
+    color: rgb(99, 97, 152);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: rgb(246, 244, 244);
 }
 
 a:hover { 
@@ -360,14 +364,14 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(23, 235, 23); /*color de bordes*/
-    background: rgb(248, 246, 246);
+    border-color: rgb(38, 17, 220); /*color de bordes*/
+    background: rgb(255, 255, 255);
 }
 
 .project-img {
     border-radius: 2rem;
-    width: 60%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 .project-title {
@@ -376,8 +380,8 @@ article .icon {
 }
 
 .project-btn {
-    color: rgb(115, 31, 199); /*Color de los botones*/
-    border-color: rgb(23, 13, 210);
+    color: black;
+    border-color: rgb(163, 163, 163);
 }
 
 /*CONTACT*/
@@ -433,7 +437,6 @@ footer p {
     text-align: center;
 }
 
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+.p1{
+    text-align: justify;
 }
