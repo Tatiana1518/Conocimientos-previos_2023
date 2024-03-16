@@ -23,7 +23,6 @@ p {
     color: rgb(30, 48, 97);
 }
 
-<<<<<<< HEAD
 /* TRANSITION*/
 
 a,
@@ -33,8 +32,6 @@ a,
 
 /* DESKTOP NAV*/
 
-=======
->>>>>>> b86ff05 (ajustes de index)
 nav,
 .nav-links {
     display: flex;
@@ -46,14 +43,11 @@ nav {
     height: 17vh;
 }
 
-<<<<<<< HEAD
 .nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem; /*MEDIDA*/
 }
-=======
->>>>>>> b86ff05 (ajustes de index)
 
 a {
     color: rgb(99, 97, 152);
@@ -76,7 +70,6 @@ a:hover {
     cursor: default;
 }
 
-<<<<<<< HEAD
 /*HAMBURGER MENU*/
 
 #hamburger-nav {
@@ -205,14 +198,11 @@ section {
     margin-bottom: 1rem;
 }
 
-=======
->>>>>>> b86ff05 (ajustes de index)
 .title {
     font-size: 3rem;
     text-align: center;
 }
 
-<<<<<<< HEAD
 #social-container {
     display: flex;
     justify-content: center;
@@ -227,8 +217,6 @@ section {
     height: 2rem;
 }
 
-=======
->>>>>>> b86ff05 (ajustes de index)
 /*BUTTONS*/
 
 .btn-container {
@@ -245,37 +233,25 @@ section {
     border-radius: 2rem;
 }
 
-<<<<<<< HEAD
 .btn-color-1,
-=======
->>>>>>> b86ff05 (ajustes de index)
 .btn-color-2 {
     border: rgb(36, 4, 215) 0.1rem solid;
 }
 
-<<<<<<< HEAD
 .btn-color-1:hover,
-=======
->>>>>>> b86ff05 (ajustes de index)
 .btn-color-2:hover {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .btn-color-1,
-=======
->>>>>>> b86ff05 (ajustes de index)
 .btn-color-2:hover {
     background: rgb(53, 53, 53);
     color: rgb(25, 145, 189);
 }
 
-<<<<<<< HEAD
 .btn-color-1:hover {
     background: rgb(84, 86, 88);
 }
-=======
->>>>>>> b86ff05 (ajustes de index)
 
 .btn-color-2 {
     background: none;
@@ -295,11 +271,8 @@ section {
     position: relative;
 }
 
-<<<<<<< HEAD
 .about-containers {
-=======
 .about-container {
->>>>>>> b86ff05 (ajustes de index)
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -310,7 +283,6 @@ section {
     flex-direction: column;
 }
 
-<<<<<<< HEAD
 .about-containers,
 .about-details-container {
     display: flex;
@@ -326,12 +298,10 @@ section {
     bottom: 2.5rem;
 }
 
-=======
 .about-containers{
     display: flex;
 }
 
->>>>>>> b86ff05 (ajustes de index)
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -342,7 +312,6 @@ section {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -367,8 +336,6 @@ section {
     margin-bottom: 2rem;
 }
 
-=======
->>>>>>> b86ff05 (ajustes de index)
 .experience-details-container {
     display: flex;
     justify-content: center;
@@ -384,7 +351,6 @@ section {
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
 article {
     display: flex;
     width: 10rem;
@@ -402,8 +368,6 @@ article .icon {
     position: relative;
 }
 
-=======
->>>>>>> b86ff05 (ajustes de index)
 .color-container {
     border-color: rgb(38, 17, 220); /*color de bordes*/
     background: rgb(255, 255, 255);
@@ -425,7 +389,6 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
-<<<<<<< HEAD
 /*CONTACT*/
 
 #contact {
@@ -470,8 +433,6 @@ article .icon {
 
 /* FOOTER SECTION */
 
-=======
->>>>>>> b86ff05 (ajustes de index)
 footer {
     height: 26vh;
     margin: 0 1rem
